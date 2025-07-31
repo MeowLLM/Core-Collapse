@@ -1,5 +1,5 @@
 # Core-Collapse
-Core Collapse is a direct, unapologetic confrontation between bloated public AI architectures and a lean, efficient private model that was never supposed to win — but does.
+Core Collapse provides a focused scope for designing efficient, high-performing models by challenging the assumption that bigger always means better
 
 # 🧠 Model Parameter Comparison
 
