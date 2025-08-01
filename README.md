@@ -34,3 +34,11 @@ A comparative overview of deep learning models based on the number of **trainabl
 - ⚙️ **Select optimal models** for edge devices or GPU training.
 
 ---
+
+---
+
+# Validate Accurate
+
+<p align="center">
+  <img width="80%" src="Figures/val_acc.png">
+</p>
