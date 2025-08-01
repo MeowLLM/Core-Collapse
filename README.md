@@ -12,9 +12,10 @@ A comparative overview of deep learning models based on the number of **trainabl
 | Model Name         | Trainable Parameters | Model Type        | Description / Notes                            |
 |--------------------|----------------------|-------------------|------------------------------------------------|
 | LeNet              | 61,496               | CNN               | Classic convolutional network                  |
-| **MLC-19k**            | **19,520**               | Custom (Private)  | Ultra-light custom model                       |
-| MLC-93k            | 93,376               | Custom (Private)  | Mid-sized custom model                         |
-| MLC-412k           | 412,416              | Custom (Private)  | Large MLC variant                              |
+| **MLC.α-19k**            | **19,520**               | Custom (Private)  | Ultra-light custom model                       |
+| MLC.α-93k          | 93,376               | MLC.α  (Private)  | Mid-sized custom model                         |
+| MLC.α-412k         | 412,416              | MLC.α  (Private)  | Large MLC variant                              |
+| MLC.β-159K         | 159,872              | MLC.β  (Private)  | New variant with Gate MLP                      |
 | ViT                | 85,801,732           | Vision Transformer| Transformer-based vision model                 |
 | EfficientNetB0     | 4,012,672            | Efficient CNN     | Scaled model balancing accuracy and size       |
 | GoogLeNet          | 5,604,004            | Inception CNN     | Efficient multi-path convolutional network     |
