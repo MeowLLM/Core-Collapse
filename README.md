@@ -43,8 +43,17 @@ A comparative overview of deep learning models based on the number of **trainabl
   <img width="80%" src="Figures/train_acc.png">
 </p>
 
+##
+This chart shows how well each model learned from the training dataset. A higher training accuracy indicates that the model was able to effectively identify patterns in the data it was trained on.
 
----
+- **Top Performer**: The MLC-412k model achieved the highest training accuracy of 91.23.
+
+- **Other High Performers**: Models like ResNet18 (86.84), DenseNet121 (86.84), and LeNet (85.96) also showed strong performance on the training data.
+
+- **Lowest Performer**: SqueezeNet had the lowest training accuracy at 38.60.
+
+
+##
 
 # Validate Accurate
 
@@ -52,7 +61,14 @@ A comparative overview of deep learning models based on the number of **trainabl
   <img width="80%" src="Figures/val_acc.png">
 </p>
 
----
+##
+This chart is crucial as it shows how well each model performs on new, unseen data. This is a better measure of the model's ability to generalize and its real-world effectiveness.
+
+- **Top Performers**: The MLC-412k and MLC-93k models were the top performers, both achieving an excellent validation accuracy of 91.07.
+
+- **Strong Generalization**: Models like LeNet (85.71) and DenseNet121 (85.71) also demonstrated strong generalization from their training results.
+
+- **Lowest Performer**: VGG16 had the lowest validation accuracy at 35.71.
 
 # Time (s)
 
