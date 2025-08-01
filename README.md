@@ -37,8 +37,25 @@ A comparative overview of deep learning models based on the number of **trainabl
 
 ---
 
+# Train Accurate
+
+<p align="center">
+  <img width="80%" src="Figures/train_acc.png">
+</p>
+
+
+---
+
 # Validate Accurate
 
 <p align="center">
   <img width="80%" src="Figures/val_acc.png">
+</p>
+
+---
+
+# Time (s)
+
+<p align="center">
+  <img width="80%" src="Figures/time_(s).png">
 </p>
