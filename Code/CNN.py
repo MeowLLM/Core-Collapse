@@ -19,7 +19,7 @@ print(f"Using device: {device}")
 
 # Data transforms
 transform = transforms.Compose([
-    transforms.Resize((32, 32)),
+    transforms.Resize((224, 224)),
     transforms.ToTensor(),
 ])
 
