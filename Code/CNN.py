@@ -3,12 +3,16 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, random_split
 from torchvision import transforms, models, datasets
+from sklearn.metrics import accuracy_score
 
 # Config
 BATCH_SIZE = 16
 EPOCHS = 10
 LEARNING_RATE = 0.00005
 DATA_DIR = ""
+
+best_acc = 0.0
+best_model_path = "best_model_alexnet.pt"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
@@ -39,10 +43,6 @@ model.to(device)
 
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.AdamW(model.parameters(), lr=LEARNING_RATE)
-
-from sklearn.metrics import accuracy_score
-best_acc = 0.0
-best_model_path = "best_model_alexnet.pt"
 
 print("\nStarting training...")
 for epoch in range(EPOCHS):
